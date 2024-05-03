@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentário</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo">MANUTENÇÃO DE USUÁRIOS XENOX.labs</h1>
+        <br>
+    </div>
+
+    <form action="">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for=""><strong>Login:</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for=""><strong>Senha:</strong></label>
+                <input type="password" name="email" id="email" required>
+            </div>
+
+        </fieldset>
+
+        <div class="campo">
+            <label for=""><strong>Status:</strong></label>
+            <select id="status">
+                <option selected disabled value="">>Selecione...</option>
+                <option>Vivo</option>
+                <option>Morto</option>
+                <option>Desaparecido</option>
+                <option>Classificado</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for=""><strong>Tipo:</strong></label>
+            <label for="">
+                <input type="radio" name="ocup" value="interno">Funcionário Interno
+            </label>
+            <label for="">
+                <input type="radio" name="ocup" value="cientista">Cientista
+            </label>
+            <label for="">
+                <input type="radio" name="ocup" value="engenheiro">Engenheiro
+            </label>
+            <label for="">
+                <input type="radio" name="ocup" value="seguranca">Segurança
+            </label>
+            <label for="">
+                <input type="radio" name="ocup" value="convidado">Convidado
+            </label>
+            <label for="">
+                <input type="radio" name="ocup" value="admin">Administrador
+            </label>
+        </div>
+        <div class="campo">
+            <label for=""><strong>Data de criação:</strong></label>
+            <input type="date">
+        </div>
+
+        <div class="campo">
+            <label for=""><strong>Observações:</strong></label>
+            <textarea rows="6" name="observacoes" id="observacoes"></textarea>
+        </div>
+
+        <fieldset class="grupo" id="areas">
+            <div class="campo">
+                <label for=""><strong>Áreas:</strong></label>
+                <input type="checkbox" id="area1" name="area1" value="documentacao">
+                <label for="area1">Documentação</label>
+                <input type="checkbox" id="area2" name="area2" value="pesquisa">
+                <label for="area2">Pesquisa</label>
+                <input type="checkbox" id="area3" name="area3" value="protecao">
+                <label for="area3">Proteção</label>
+                <input type="checkbox" id="area4" name="area4" value="classificacao">
+                <label for="area1">Classificação</label>
+            </div>
+        </fieldset>
+        <div id="escolha">
+            <button type="submit">Cadastrar</button>
+            <button type="submit">Excluir</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

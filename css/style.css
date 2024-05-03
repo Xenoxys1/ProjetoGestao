@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: white;
+    margin-left: 7%;
+    margin-right: 42.5%;
+    background-color: navy;
+    background-size: cover;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1em;
+    color: red;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+textarea {
+    width: 500px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: royalblue;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="password"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: white;
+}
+
+button {
+    font-size: 1.2em;
+    background: white;
+    border: 0;
+    margin-bottom: 1em;
+    color: black;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+button:hover {
+    background: blue;
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#escolha{
+    display: flex;
+    gap: 1000px;
+}
